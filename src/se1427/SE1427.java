@@ -22,6 +22,7 @@ public class SE1427 {
         System.out.println("0! = " + MyToys.cF(0));//hy vọng 1
         System.out.println("-5! = " + MyToys.cF(-5)); //JVM sẽ giết app, ném ra ngoại lệ của chính mình
                                                       //chửi user đưa tham số vào
+        System.out.println("7! = " + MyToys.cF(7));//hy vọng 5040
     }
     
 }

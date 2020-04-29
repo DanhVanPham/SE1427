@@ -32,7 +32,8 @@ public class MyToysTest {
         assertEquals(6, cF(3)); 
         assertEquals(24, cF(4)); 
         assertEquals(120, cF(5)); 
-        assertEquals(720, cF(6)); 
+        assertEquals(720, cF(6));
+        assertEquals(5040, cF(7));
     }
     //ngoại lệ ko là value để so sánh
     //nó là bất thường nào đó xảy ra, ko ước lượng được chính xác nó là giá trị gì
